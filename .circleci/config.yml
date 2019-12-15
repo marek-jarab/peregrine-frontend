@@ -10,5 +10,6 @@ jobs:
       - checkout
       - run: npm install    
       - run: npm run-script build
+      - run: npm run test
       
           
